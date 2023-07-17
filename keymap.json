@@ -1,0 +1,24 @@
+[
+  ["i", "jk", "<ESC>"],
+  ["i", "<C-h>", "<Left>"],
+  ["i", "<C-j>", "<Down>"],
+  ["i", "<C-k>", "<Up>"],
+  ["i", "<C-l>", "<Right>"],
+
+	["n", "NN", ":bnext<CR>"],
+	["n", "BB", ":bprev<CR>"],
+	["n", "<C-j>", "10j"],
+	["n", "<C-k>", "10k"],
+
+	["n", "<leader>ff", ":Telescope find_files<CR>"],
+	["n", "<leader>fs", ":Telescope live_grep<CR>"],
+	["n", "<leader>fg", ":Telescope git_files<CR>"],
+	["n", "<leader>theme", ":Telescope colorscheme<CR>"],
+
+	["n", "ge", ":Neotree toggle<CR>"],
+
+	["n", "<leader>le", ":Lspsaga show_line_diagnostics<CR>"],
+	["n", "<leader>lo", ":Lspsaga outline<CR>"],
+	["n", "<leader>lf", ":Lspsaga finder<CR>"],
+	["n", "<leader>la", ":Lspsaga code_action<CR>"]
+]
