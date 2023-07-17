@@ -5,7 +5,7 @@ local cmp_nvim_lsp = require('cmp_nvim_lsp')
 local lspsaga = require('lspsaga')
 local navic = require('nvim-navic')
 
-local lsps = { 'rust_analyzer', 'tsserver', 'html', 'cssls', 'eslint' }
+local lsps = { 'rust_analyzer', 'tsserver', 'html', 'cssls', 'eslint', 'lua_ls' }
 
 mason.setup()
 mason_lspconfig.setup({ ensure_installed = lsps })

@@ -12,15 +12,15 @@ cmp.setup({
   },
   sources = cmp.config.sources({
     { name = 'nvim_lsp' },
-    { name = 'luasnip' },
     { name = 'buffer' },
     { name = 'path' },
+    { name = 'luasnip' },
   }),
   mapping = cmp.mapping.preset.insert({
     ['<S-Tab>'] = cmp.mapping.select_prev_item(),
     ['<Tab>'] = cmp.mapping.select_next_item(),
     ['<C-Space>'] = cmp.mapping.complete(),
-    ['<Esc>'] = cmp.mapping.abort(),
+    ['<C-q>'] = cmp.mapping.abort(),
     ['<CR>'] = cmp.mapping.confirm({ select = false }),
   }),
 })

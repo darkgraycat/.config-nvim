@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/Users/pburi/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ayu = {
+    loaded = true,
+    path = "/Users/pburi/.local/share/nvim/site/pack/packer/start/ayu",
+    url = "https://github.com/Shatur/neovim-ayu"
+  },
   catppuccin = {
     loaded = true,
     path = "/Users/pburi/.local/share/nvim/site/pack/packer/start/catppuccin",
@@ -114,6 +119,11 @@ _G.packer_plugins = {
     path = "/Users/pburi/.local/share/nvim/site/pack/packer/start/everforest",
     url = "https://github.com/neanias/everforest-nvim"
   },
+  falcon = {
+    loaded = true,
+    path = "/Users/pburi/.local/share/nvim/site/pack/packer/start/falcon",
+    url = "https://github.com/fenetikm/falcon"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/Users/pburi/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -148,6 +158,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/pburi/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
+  },
+  material = {
+    loaded = true,
+    path = "/Users/pburi/.local/share/nvim/site/pack/packer/start/material",
+    url = "https://github.com/marko-cerovac/material.nvim"
   },
   monokai = {
     loaded = true,

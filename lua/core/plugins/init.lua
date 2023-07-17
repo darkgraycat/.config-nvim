@@ -57,6 +57,9 @@ return require('packer').startup(function(use)
   use { 'thedenisnikulin/vim-cyberpunk', as = 'cyberpunk' }
   use { 'LunarVim/horizon.nvim', as = 'horizon' }
   use { 'rebelot/kanagawa.nvim', as = 'kanagawa' }
+  use { 'marko-cerovac/material.nvim', as = 'material' }
+  use { 'Shatur/neovim-ayu', as = 'ayu' }
+  use { 'fenetikm/falcon', as = 'falcon' }
   -- configs
   require'core.plugins.lualine'
   require'core.plugins.tree'

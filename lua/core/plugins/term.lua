@@ -1,5 +1,5 @@
 local term = require('toggleterm')
-local settings = require('core.functions').load_json('settings')
+local settings = require('core.settings').get()
 
 term.setup({
 	size = 20,

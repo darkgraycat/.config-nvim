@@ -1,4 +1,4 @@
-local settings = require('core.functions').load_json('settings')
+local settings = require('core.settings').get()
 
 require('neo-tree').setup({
   close_if_last_window = true,

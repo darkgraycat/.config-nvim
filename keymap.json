@@ -12,13 +12,14 @@
 
 	["n", "<leader>ff", ":Telescope find_files<CR>"],
 	["n", "<leader>fs", ":Telescope live_grep<CR>"],
-	["n", "<leader>fg", ":Telescope git_files<CR>"],
+	["n", "<leader>fg", ":Telescope git_status<CR>"],
 	["n", "<leader>theme", ":Telescope colorscheme<CR>"],
 
 	["n", "ge", ":Neotree toggle<CR>"],
 
-	["n", "<leader>le", ":Lspsaga show_line_diagnostics<CR>"],
-	["n", "<leader>lo", ":Lspsaga outline<CR>"],
-	["n", "<leader>lf", ":Lspsaga finder<CR>"],
-	["n", "<leader>la", ":Lspsaga code_action<CR>"]
+	["n", "Le", ":Lspsaga show_buf_diagnostics<CR>"],
+	["n", "Lp", ":Lspsaga peek_definition<CR>"],
+	["n", "Ld", ":Lspsaga goto_definition<CR>"],
+	["n", "Lo", ":Lspsaga outline<CR>"],
+	["n", "Lf", ":Lspsaga finder<CR>"]
 ]
