@@ -28,6 +28,7 @@
   ["n", "Et", ":Telescope colorscheme<CR>", "Change theme"],
   ["n", "Ed", ":Telescope diagnostics<CR>", "Show diagnostics"],
   ["n", "Eb", ":Telescope buffers<CR>", "Show editor tabs"],
+  ["n", "Eu", ":TermExec cmd='ssh-add ~/.ssh/\\'<CR>", "Auth SSH"],
   ["n", "EM", ":Mason<CR>", "Open Mason"],
   ["n", "EZ", ":qa<CR>", "Quit"],
   ["n", "Eg", ":W Eg<CR>", "Git"],
