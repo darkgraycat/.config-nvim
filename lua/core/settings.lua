@@ -55,7 +55,7 @@ end
 init()
 
 return {
-  set =  set,
+  set = set,
   get = get,
   add = add,
   init = init,

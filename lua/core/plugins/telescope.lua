@@ -3,11 +3,11 @@ local actions = require('telescope.actions')
 local state = require('telescope.actions.state')
 
 local borders = {
-	single = { '─', '│', '─', '│', '┌', '┐', '┘', '└' },
-	rounded = { '─', '│', '─', '│', '╭', '╮', '╯', '╰' },
-	shadow  = { ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ' },
-	double  = { '═', '║', '═', '║', '╔', '╗', '╝', '╚' },
-	solid   = { '━', '┃', '━', '┃', '┏', '┓', '┛', '┗' },
+  single  = { '─', '│', '─', '│', '┌', '┐', '┘', '└' },
+  rounded = { '─', '│', '─', '│', '╭', '╮', '╯', '╰' },
+  shadow  = { ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ' },
+  double  = { '═', '║', '═', '║', '╔', '╗', '╝', '╚' },
+  solid   = { '━', '┃', '━', '┃', '┏', '┓', '┛', '┗' },
 }
 
 local layout_config = {
@@ -40,17 +40,17 @@ local pickers = {
 }
 
 require('telescope').setup {
-	defaults = {
-		prompt_prefix = ' > ',
-		selection_caret = ' > ',
-		path_display = { 'smart' },
+  defaults = {
+    prompt_prefix = ' > ',
+    selection_caret = ' > ',
+    path_display = { 'smart' },
     entry_prefix = '  ',
     initial_mode = 'insert',
     selection_strategy = 'reset',
     sorting_strategy = 'ascending',
     layout_strategy = 'horizontal',
-		borderchars = borders[settings.get().window_border],
+    borderchars = borders[settings.get().window_border],
     layout_config = layout_config,
-	},
+  },
   pickers = pickers,
 }

@@ -23,4 +23,3 @@ end
 for _, k in ipairs(mappings) do
   keymap(k[1], k[2], k[3], k[4])
 end
-
