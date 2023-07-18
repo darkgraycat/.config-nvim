@@ -134,6 +134,11 @@ _G.packer_plugins = {
     path = "/Users/pburi/.local/share/nvim/site/pack/packer/start/horizon",
     url = "https://github.com/LunarVim/horizon.nvim"
   },
+  ["inlay-hints.nvim"] = {
+    loaded = true,
+    path = "/Users/pburi/.local/share/nvim/site/pack/packer/start/inlay-hints.nvim",
+    url = "https://github.com/simrat39/inlay-hints.nvim"
+  },
   kanagawa = {
     loaded = true,
     path = "/Users/pburi/.local/share/nvim/site/pack/packer/start/kanagawa",
@@ -208,11 +213,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/pburi/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
-  },
-  ["nvim-navic"] = {
-    loaded = true,
-    path = "/Users/pburi/.local/share/nvim/site/pack/packer/start/nvim-navic",
-    url = "https://github.com/SmiteshP/nvim-navic"
   },
   ["nvim-treesitter"] = {
     loaded = true,

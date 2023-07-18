@@ -30,6 +30,7 @@ return require('packer').startup(function(use)
   use 'hrsh7th/nvim-cmp'
   use 'hrsh7th/cmp-buffer'
   use 'hrsh7th/cmp-path'
+  use 'hrsh7th/cmp-nvim-lsp'
   -- snippets
   use 'L3MON4D3/LuaSnip'
   use 'saadparwaiz1/cmp_luasnip'
@@ -38,13 +39,12 @@ return require('packer').startup(function(use)
   use 'williamboman/mason.nvim'
   use 'williamboman/mason-lspconfig.nvim'
   use 'neovim/nvim-lspconfig'
-  use 'hrsh7th/cmp-nvim-lsp'
   use 'nvimdev/lspsaga.nvim'
   -- misc
   use 'terrortylor/nvim-comment'
   use 'windwp/nvim-autopairs'
   use 'folke/which-key.nvim'
-  use 'SmiteshP/nvim-navic'
+  use 'simrat39/inlay-hints.nvim'
   -- themes
   use { 'catppuccin/nvim', as = 'catppuccin' }
   use { 'folke/tokyonight.nvim', as = 'tokyonight' }

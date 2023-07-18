@@ -52,6 +52,8 @@ local function add(table)
   set(settings)
 end
 
+init()
+
 return {
   set =  set,
   get = get,
