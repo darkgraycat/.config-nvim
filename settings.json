@@ -6,5 +6,7 @@
   "window_border": "single",
   "shownumbers": true,
   "lualine_style": "solid",
-  "lualine_theme": "auto"
+  "lualine_theme": "auto",
+  "file_ignore_patterns": ["node_modules/.*", "build/.*", "dist/.*"],
+  "neotree_position": "right"
 }

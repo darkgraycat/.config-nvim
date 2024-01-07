@@ -17,4 +17,7 @@ require('neo-tree').setup({
     content_layout = 'center',
     tabs_layout = 'equal',
   },
+  window = {
+    position = settings.neotree_position
+  }
 })

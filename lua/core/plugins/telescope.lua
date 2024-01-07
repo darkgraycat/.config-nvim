@@ -51,6 +51,7 @@ require('telescope').setup {
     layout_strategy = 'horizontal',
     borderchars = borders[settings.get().window_border],
     layout_config = layout_config,
+    file_ignore_patterns = settings.get().file_ignore_patterns,
   },
   pickers = pickers,
 }
