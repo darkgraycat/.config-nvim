@@ -1,8 +1,12 @@
 local cmp = require('cmp')
 local luasnip = require('luasnip')
+local mappings = require('core.mappings')
 require('luasnip/loaders/from_vscode').lazy_load()
 
 vim.opt.completeopt = 'menu,menuone,noselect'
+
+mappings.set_keymap({'i', 's'}, mappings.common_keys.next_item_alt, function() luasnip.jump( 1) end)
+mappings.set_keymap({'i', 's'}, mappings.common_keys.prev_item_alt, function() luasnip.jump(-1) end)
 
 cmp.setup({
   snippet = {

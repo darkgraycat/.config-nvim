@@ -1,7 +1,20 @@
+local settings = require('core.settings')
+
+local separators_styles = {
+  solid = { { left = ' ', right = ' ' }, { left = ' ', right = ' ' } },
+  arrow = { { left = '', right = '' }, { left = '', right = '' } },
+  round = { { left = '', right = '' }, { left = '', right = '' } },
+  cutted = { { left = '\\', right = '/' }, { left = '', right = '' } }
+}
+local style = separators_styles[settings.get().lualine_style]
+local theme = settings.get().lualine_theme
+
 require('lualine').setup {
   options = {
     icons_enabled = true,
-    theme = 'auto',
+    theme = theme or 'auto',
+    component_separators = style[1],
+    section_separators = style[2],
   },
   sections = {
     lualine_a = { 'mode' },

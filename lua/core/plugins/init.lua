@@ -39,19 +39,21 @@ return require('packer').startup(function(use)
   use 'williamboman/mason.nvim'
   use 'williamboman/mason-lspconfig.nvim'
   use 'neovim/nvim-lspconfig'
+  use 'jose-elias-alvarez/null-ls.nvim'
   use 'nvimdev/lspsaga.nvim'
   -- misc
   use 'terrortylor/nvim-comment'
   use 'windwp/nvim-autopairs'
   use 'folke/which-key.nvim'
   use 'simrat39/inlay-hints.nvim'
+  use 'lukas-reineke/indent-blankline.nvim'
+  use {'kevinhwang91/nvim-ufo', requires = 'kevinhwang91/promise-async'}
   -- themes
   use { 'catppuccin/nvim', as = 'catppuccin' }
   use { 'folke/tokyonight.nvim', as = 'tokyonight' }
   use { 'shaunsingh/moonlight.nvim', as = 'moonlight' }
   use { 'shaunsingh/nord.nvim', as = 'nord' }
   use { 'loctvl842/monokai-pro.nvim', as = 'monokai' }
-  use { 'navarasu/onedark.nvim', as = 'onedark' }
   use { 'neanias/everforest-nvim', as = 'everforest' }
   use { 'rose-pine/neovim', as = 'rose-pine' }
   use { 'thedenisnikulin/vim-cyberpunk', as = 'cyberpunk' }
@@ -60,6 +62,8 @@ return require('packer').startup(function(use)
   use { 'marko-cerovac/material.nvim', as = 'material' }
   use { 'Shatur/neovim-ayu', as = 'ayu' }
   use { 'fenetikm/falcon', as = 'falcon' }
+  use { 'akai54/2077.nvim', as = '2077' }
+  use { 'tiagovla/tokyodark.nvim', as = 'tokyodark' }
   -- configs
   require 'core.plugins.lualine'
   require 'core.plugins.tree'

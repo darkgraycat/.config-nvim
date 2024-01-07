@@ -1,1 +1,10 @@
-{"tabwidth":2,"window_border":"single","wrap":true,"theme":"kanagawa","showrelativenumbers":true,"shownumbers":true}
+{
+  "wrap": false,
+  "tabwidth": 2,
+  "theme": "kanagawa",
+  "showrelativenumbers": true,
+  "window_border": "single",
+  "shownumbers": true,
+  "lualine_style": "solid",
+  "lualine_theme": "auto"
+}

@@ -1,3 +1,4 @@
+-- TODO make single file for settings and keymaps
 local fn = require('core.functions')
 
 local function apply(settings)
@@ -22,6 +23,11 @@ local function apply(settings)
     wrap = settings.wrap,
     ignorecase = true,
     smartcase = true,
+    foldcolumn = '0',
+    foldlevel = 99,
+    foldlevelstart = 99,
+    foldenable = true,
+    fillchars = [[eob: ,fold: ,foldopen:,foldsep: ,foldclose:]],
   }
 
   for k, v in pairs(vim_opts) do
