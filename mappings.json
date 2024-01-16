@@ -1,9 +1,6 @@
 [
   ["i", "jk", "<ESC>"],
-  ["i", "<C-h>", "<Left>"],
-  ["i", "<C-j>", "<Down>"],
-  ["i", "<C-k>", "<Up>"],
-  ["i", "<C-l>", "<Right>"],
+  ["c", "jk", "<CR>:nohl<CR>"],
 
   [["n", "v"], "U", "<C-r>"],
 
@@ -21,6 +18,7 @@
 
 	["n", "<M-l>", ":Lspsaga code_action<CR>"],
 	["n", "<M-k>", ":Lspsaga hover_doc<CR>"],
+	["n", "<M-d>", ":Lspsaga peek_definition<CR>"],
 
 	["n", "<leader>ff", ":Telescope find_files<CR>", "Find files"],
 	["n", "<leader>fs", ":Telescope live_grep<CR>", "Grep search"],

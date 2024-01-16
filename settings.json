@@ -1,12 +1,1 @@
-{
-  "wrap": false,
-  "tabwidth": 2,
-  "theme": "kanagawa",
-  "showrelativenumbers": true,
-  "window_border": "single",
-  "shownumbers": true,
-  "lualine_style": "solid",
-  "lualine_theme": "auto",
-  "file_ignore_patterns": ["node_modules/.*", "build/.*", "dist/.*"],
-  "neotree_position": "right"
-}
+{"lualine_style":"solid","shownumbers":true,"showrelativenumbers":true,"tabwidth":2,"window_border":"single","lualine_theme":"auto","neotree_position":"left","theme":"horizon","wrap":false,"file_ignore_patterns":["node_modules\/.*","build\/.*","dist\/.*"]}

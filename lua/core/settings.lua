@@ -3,6 +3,7 @@ local fn = require('core.functions')
 
 local function apply(settings)
   local vim_opts = {
+    background = 'light',
     termguicolors = true,
     signcolumn = 'yes',
     backspace = 'indent,eol,start',

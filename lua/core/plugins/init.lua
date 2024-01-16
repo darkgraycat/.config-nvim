@@ -46,8 +46,8 @@ return require('packer').startup(function(use)
   use 'windwp/nvim-autopairs'
   use 'folke/which-key.nvim'
   use 'simrat39/inlay-hints.nvim'
-  use 'lukas-reineke/indent-blankline.nvim'
-  use {'kevinhwang91/nvim-ufo', requires = 'kevinhwang91/promise-async'}
+  -- use { 'lukas-reineke/indent-blankline.nvim', main = 'ibl' }
+  -- use { 'kevinhwang91/nvim-ufo', requires = 'kevinhwang91/promise-async' }
   -- themes
   use { 'catppuccin/nvim', as = 'catppuccin' }
   use { 'folke/tokyonight.nvim', as = 'tokyonight' }
@@ -56,14 +56,13 @@ return require('packer').startup(function(use)
   use { 'loctvl842/monokai-pro.nvim', as = 'monokai' }
   use { 'neanias/everforest-nvim', as = 'everforest' }
   use { 'rose-pine/neovim', as = 'rose-pine' }
-  use { 'thedenisnikulin/vim-cyberpunk', as = 'cyberpunk' }
-  use { 'LunarVim/horizon.nvim', as = 'horizon' }
+  use { 'akinsho/horizon.nvim', as = 'horizon' }
   use { 'rebelot/kanagawa.nvim', as = 'kanagawa' }
   use { 'marko-cerovac/material.nvim', as = 'material' }
   use { 'Shatur/neovim-ayu', as = 'ayu' }
   use { 'fenetikm/falcon', as = 'falcon' }
   use { 'akai54/2077.nvim', as = '2077' }
-  use { 'tiagovla/tokyodark.nvim', as = 'tokyodark' }
+  use { 'projekt0n/github-nvim-theme', as = 'github' }
   -- configs
   require 'core.plugins.lualine'
   require 'core.plugins.tree'

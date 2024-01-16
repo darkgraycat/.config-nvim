@@ -12,6 +12,12 @@ vim.keymap.set("n", "<leader>nh", ':nohl<CR>')
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
+-- local function mappings_print()
+--   print(vim.fn.json_decode(mappings_file))
+-- end
+--
+-- vim.keymap.set('n', 'lhs', function() mappings_print() end)
+
 local default_opts = { noremap = true }
 local function set_keymap(mode, kb, cmd, desc)
   local opts = default_opts

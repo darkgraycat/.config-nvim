@@ -114,11 +114,6 @@ _G.packer_plugins = {
     path = "/Users/pburi/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
-  cyberpunk = {
-    loaded = true,
-    path = "/Users/pburi/.local/share/nvim/site/pack/packer/start/cyberpunk",
-    url = "https://github.com/thedenisnikulin/vim-cyberpunk"
-  },
   everforest = {
     loaded = true,
     path = "/Users/pburi/.local/share/nvim/site/pack/packer/start/everforest",
@@ -134,15 +129,15 @@ _G.packer_plugins = {
     path = "/Users/pburi/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
+  github = {
+    loaded = true,
+    path = "/Users/pburi/.local/share/nvim/site/pack/packer/start/github",
+    url = "https://github.com/projekt0n/github-nvim-theme"
+  },
   horizon = {
     loaded = true,
     path = "/Users/pburi/.local/share/nvim/site/pack/packer/start/horizon",
-    url = "https://github.com/LunarVim/horizon.nvim"
-  },
-  ["indent-blankline.nvim"] = {
-    loaded = true,
-    path = "/Users/pburi/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
-    url = "https://github.com/lukas-reineke/indent-blankline.nvim"
+    url = "https://github.com/akinsho/horizon.nvim"
   },
   ["inlay-hints.nvim"] = {
     loaded = true,
@@ -234,11 +229,6 @@ _G.packer_plugins = {
     path = "/Users/pburi/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
-  ["nvim-ufo"] = {
-    loaded = true,
-    path = "/Users/pburi/.local/share/nvim/site/pack/packer/start/nvim-ufo",
-    url = "https://github.com/kevinhwang91/nvim-ufo"
-  },
   ["nvim-web-devicons"] = {
     loaded = true,
     path = "/Users/pburi/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
@@ -254,11 +244,6 @@ _G.packer_plugins = {
     path = "/Users/pburi/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
-  ["promise-async"] = {
-    loaded = true,
-    path = "/Users/pburi/.local/share/nvim/site/pack/packer/start/promise-async",
-    url = "https://github.com/kevinhwang91/promise-async"
-  },
   ["rose-pine"] = {
     loaded = true,
     path = "/Users/pburi/.local/share/nvim/site/pack/packer/start/rose-pine",
@@ -273,11 +258,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/pburi/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
     url = "https://github.com/akinsho/toggleterm.nvim"
-  },
-  tokyodark = {
-    loaded = true,
-    path = "/Users/pburi/.local/share/nvim/site/pack/packer/start/tokyodark",
-    url = "https://github.com/tiagovla/tokyodark.nvim"
   },
   tokyonight = {
     loaded = true,
