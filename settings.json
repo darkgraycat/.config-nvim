@@ -1,1 +1,1 @@
-{"lualine_style":"solid","shownumbers":true,"showrelativenumbers":true,"tabwidth":2,"window_border":"single","lualine_theme":"auto","neotree_position":"left","theme":"horizon","wrap":false,"file_ignore_patterns":["node_modules\/.*","build\/.*","dist\/.*"]}
+{"lualine_theme":"auto","window_border":"single","neotree_position":"left","theme":"horizon","showrelativenumbers":true,"file_ignore_patterns":["node_modules\/.*","build\/.*","dist\/.*"],"tabwidth":2,"wrap":true,"shownumbers":true,"lualine_style":"solid"}
