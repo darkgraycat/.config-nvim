@@ -219,6 +219,11 @@ _G.packer_plugins = {
     path = "/Users/pburi/.local/share/nvim/site/pack/packer/start/nvim-comment",
     url = "https://github.com/terrortylor/nvim-comment"
   },
+  ["nvim-lsp-notify"] = {
+    loaded = true,
+    path = "/Users/pburi/.local/share/nvim/site/pack/packer/start/nvim-lsp-notify",
+    url = "https://github.com/mrded/nvim-lsp-notify"
+  },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "/Users/pburi/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",

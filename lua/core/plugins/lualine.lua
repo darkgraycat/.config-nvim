@@ -11,6 +11,7 @@ require('lualine').setup {
   options = {
     icons_enabled = true,
     theme = settings.lualine_theme or 'auto',
+    padding = 2,
     component_separators = separators[settings.lualine_style][1],
     section_separators = separators[settings.lualine_style][2],
   },
@@ -24,6 +25,9 @@ require('lualine').setup {
   },
   tabline = {
     lualine_a = { 'buffers' },
+    lualine_b = { 'selectioncount' },
+    lualine_c = { 'searchcount' },
     lualine_z = { 'tabs' },
+    lualine_y = { 'datetime' },
   },
 }
