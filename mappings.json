@@ -6,6 +6,7 @@
 
 	["n", "NN", ":bnext<CR>"],
   ["n", "BB", ":bprev<CR>"],
+  ["n", "QQ", ":<C-U>bprevious <bar> bdelete #<CR>"],
 	[["n", "v"], "<C-j>", "10j"],
 	[["n", "v"], "<C-k>", "10k"],
 
