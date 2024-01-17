@@ -14,6 +14,11 @@
 	["n", "<C-w>s", "<C-w>v"],
 	["n", "<C-w>v", ""],
 
+  [["n"], "<C-S-E>", ":Neotree toggle<CR>"],
+  [["n"], "<C-S-O>", ":Lspsaga outline<CR>"],
+  [["n"], "<C-S-P>", ":Telescope find_files<CR>"],
+  [["n"], "<C-S-F>", ":Telescope live_grep<CR>"],
+
 	["n", "<C-b>", ":Neotree toggle<CR>"],
 	["n", "<C-M-b>", ":Lspsaga outline<CR>"],
 

@@ -10,6 +10,7 @@ local inlay_hints = require('inlay-hints')
 inlay_hints.setup({ renderer = 'inlay-hints/render/eol' })
 
 local on_attach = function(client, bufnr)
+  print('Inlay hints attached ')
   inlay_hints.on_attach(client, bufnr)
 end
 
@@ -20,6 +21,7 @@ local lsps = { 'rust_analyzer', 'tsserver', 'html', 'cssls', 'eslint', 'lua_ls',
 mason.setup()
 mason_lspconfig.setup({ ensure_installed = lsps })
 
+print('LPS start')
 for _, lsp in ipairs(lsps) do
   lspconfig[lsp].setup({
     capabilities = capabilities,
